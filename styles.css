@@ -149,7 +149,7 @@ a {
 }
 
 #accCreationButton:hover {
-    border: 2px solid rgb(50, 237, 243);
+    border: 2px solid blue;
 }
 
 .logInText {
@@ -200,14 +200,14 @@ a {
     outline-style: none;
 }
 
+.formClass input:invalid {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(184, 0, 0);
+}
+
 .formClass input:focus {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     border: 2px solid blue;
-}
-
-.formClass input:invalid {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    border: 2px solid red;
 }
 
 .formClass label {
@@ -216,12 +216,3 @@ a {
 
 
 
-
-
-
-
-/* * {
-    border: 2px solid red;
-} */
-
-/* background-image */
