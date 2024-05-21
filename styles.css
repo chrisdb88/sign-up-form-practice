@@ -96,9 +96,14 @@ a {
     padding: 15px 0 15px 0;
 }
 
-.formContainer {
-
+.requiredSpan {
+    font-size: 0.8rem;
+    opacity: 0.5;
 }
+
+/* .formContainer {
+
+} */
 
 .sectionsPadding {
     padding-left: 4vw;
@@ -144,7 +149,7 @@ a {
 }
 
 #accCreationButton:hover {
-    border: 2px solid rgb(243, 50, 50);
+    border: 2px solid rgb(50, 237, 243);
 }
 
 .logInText {
@@ -159,6 +164,61 @@ a {
 .italicText {
     font-style: italic;
 }
+
+.formClass {
+    display: flex;
+    width: 40vw;
+    height: 20vh;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+
+.formClass > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 1 45%;
+}
+
+.formClass > div > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.formClass label {
+    flex: 0 1 20%;
+}
+
+.formClass input {
+    display: block;
+    flex: 0 1 50%;
+    font-size: 1.25vw;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    outline-style: none;
+}
+
+.formClass input:focus {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid blue;
+}
+
+.formClass input:invalid {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid red;
+}
+
+.formClass label {
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
 
 /* * {
     border: 2px solid red;
